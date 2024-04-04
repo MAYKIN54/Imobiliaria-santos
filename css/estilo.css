@@ -4,20 +4,14 @@ div {
     margin: 30px auto;
     text-align: center;
     height: 400px;
-
-
 }
 
-/*div da logo da pagina*/
 .logo {
     
     background-color: #afddfd;
     text-align: center;
     margin: 15px 15px 40px 15px;
-
 }
-
-/*link da div logo*/
 .logo-link {
     font-size: 20px;
     margin: 40px 12px;
@@ -25,81 +19,58 @@ div {
     color: black;
 }
 
-/*'div do banner*/
+/*'Seção banner*/
 .banner {
     height: 450px;
     text-align: center;
 }
-
-/*imagem da div do banner*/
 .img-banner {
     width: 1200px;
     height: auto;
 }
+/**********************/
 
-/*todos os paragrafos da pagina*/
-p {
-    margin: 10px auto;
+
+/*Seção sobre*/
+.sobre {
+    height: 600px;
 }
-
-/*paragrafo da div da classe sobre*/
+.texto-azul {
+    font-size: 18px;
+    color: #1c81c0;
+}
+.sobre h1 {
+    margin-top: 15px;
+}
+.sobre h2 {
+    color: #1c81c0;
+    font-weight: normal;
+}
+.sobre img  {
+    width: 450px;
+}
 .sobre p {
     width: 980px;
     line-height: 28px;
     margin-top: 20px;
     text-align: justify;
-
 }
-
-/*paragrafo da div da classe servicos*/
-.servicos p {
-    font-size: 18px;
-    line-height: 28px;
-}
-
-/*todos os span da pagina*/
-span {
-    font-weight: bold;    
-}
-
-/*div sobre*/
-.sobre {
-    height: 600px;
-}
-
-.texto-azul {
-    font-size: 18px;
-    color: #1c81c0;
-}
-
-.sobre h1 {
-    margin-top: 15px;
-}
-
-.sobre h2 {
-    color: #1c81c0;
-    font-weight: normal;
-}
-
-.sobre img  {
-    width: 450px;
-}
-
 /************************/
 
-/*div servicos*/
+
+
+/*Seção servicos*/
 .servicos {
     height: 500px;
     color: #ffffff;
     background-color: #1c81c0;
 }
-
 .servicos h2 {
     font-size: 28px;
     line-height: 42px;
     margin-top: 5px;
+    padding-top: 35px;
 }
-
 .servicos p {
     font-size: 22px;
     width: 700px;
@@ -107,21 +78,20 @@ span {
     text-align: center;
     color: #ffffff;
 }
-
 .texto-amarelo {
     color: #fff81b;
     font-weight: bold;
 }
-
 .servicos li {
     font-size: 18px;
     width: 135px;
     margin: 20px auto;
 }
-
 /*****************/
 
-/**div corretores**/
+
+
+/**Seção corretores**/
 
 .corretores {
     height: 500px;
@@ -131,8 +101,12 @@ span {
 .corretores img {
     width: 450px;
 }
+.corretores h2 {
+    font-size: 32px;
+    margin: 40px 0;
 
 
+}
 .corretores p {
     width: 900px;
     margin-top: 10px;
@@ -141,17 +115,14 @@ span {
     color: black;   
 }
 
-/**div contato**/
-
+/**Seção contato**/
 .contato {
     height: 500px;
     background-color: #1c81c0;
 }
-
 .contato h2 {
     color: #ffffff;
 }
-
 .contato p {
     width: 1100px;
     color: #ffffff;
@@ -160,13 +131,10 @@ span {
     margin: 30px auto;
     margin-top: 30;
 }
-
-
 .contato li {
-  width: 250px;
-  margin: 15px auto;
+    width: 250px;
+    margin: 15px auto;
 }
-
 .contato a {
     background-color: #ffffff;
     color: #1c81c0;
@@ -175,14 +143,4 @@ span {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-/*************************/
+/***********end**************/
